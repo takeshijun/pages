@@ -1,0 +1,107 @@
+.test_orange{
+    font-size: 30px;
+    color: orange;
+}
+
+.container {
+    background-color: #003344;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box {
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    height: 150px;
+    line-height: 30px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main > .item {
+    flex: none;
+    width: 270px;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffcccc;
+}
+
+img {
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 50%;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid #888888;
+    padding: 10px;
+}
+
+tr:nth-child(1) {
+    background-color: #7788aa;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:1200px) {
+    main > .item {
+        width: 45%;
+    }
+}
+
+@media (max-width:500px) {
+    main > .item {
+        width: 90%;
+    }
+}
+
+h3 {
+    text-align: center;
+}
