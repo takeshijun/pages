@@ -1,3 +1,25 @@
+/*Responsive*/
+@media screen and (max-width:600px) {
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:1200px) {
+    main > .item {
+        width: 45%;
+    }
+}
+
+@media (max-width:500px) {
+    main > .item {
+        width: 90%;
+    }
+}
+
+
+
 .test_orange{
     font-size: 30px;
     color: orange;
@@ -83,24 +105,7 @@ tr:nth-child(even) {
     background-color: #e8e8e8;
 }
 
-@media screen and (max-width:600px) {
-    .content {
-        width: 100%;
-        text-align: center;
-    }
-}
 
-@media (max-width:1200px) {
-    main > .item {
-        width: 45%;
-    }
-}
-
-@media (max-width:500px) {
-    main > .item {
-        width: 90%;
-    }
-}
 
 h3 {
     text-align: center;
